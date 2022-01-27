@@ -1,43 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roy's Portfolio</title>
-    <meta name="description" content="softengineer Roy">
-    <meta name="author" content="Roy">
-    <script src="https://kit.fontawesome.com/081a585708.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="imgs/favicon.png"/>
+    <meta name="description" content="softengineer Roy" />
+    <meta name="author" content="Roy" />
+    <script
+      src="https://kit.fontawesome.com/081a585708.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navber -->
     <nav id="navber"></nav>
-        <div class="navber__logo"></div>
-            <i class="fab fa-diaspora"></i>
-            <a href="#">Roy</a>
-        <div class="navber__menu"></div>
-            <ul class="naver__menu"></ul>
-                <li class="navber__menu__item">Home</li>
-                <li class="navber__menu__item">About</li>
-                <li class="navber__menu__item">Skills</li>
-                <li class="navber__menu__item">Work</li>
-                <li class="navber__menu__item">testimonials</li>
-                <li class="navber__menu__item">Contact</li>
+    <div class="navber__logo"></div>
+    <i class="fab fa-diaspora"></i>
+    <a href="#">Roy</a>
+    <div class="navber__menu"></div>
+    <ul class="naver__menu"></ul>
+    <li class="navber__menu__item">Home</li>
+    <li class="navber__menu__item">About</li>
+    <li class="navber__menu__item">Skills</li>
+    <li class="navber__menu__item">Work</li>
+    <li class="navber__menu__item">testimonials</li>
+    <li class="navber__menu__item">Contact</li>
+
     <!-- Home -->
     <section id="home">
-        <img src="imgs/profile.png" alt="Roy's Profile photo" class="home__avatar">
-        <h1 class="home__tittle">Hello, <br/> I'm Roy</h1>
-        <h2 class="home__discription">A Software Engineer</h2>
-        <button class="home__contact">CONTACT ME</button>
+      <img
+        src="imgs/profile.png"
+        alt="Roy's Profile photo"
+        class="home__avatar"
+      />
+      <h1 class="home__tittle">
+        Hello, <br />
+        I'm Roy
+      </h1>
+      <h2 class="home__discription">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        exercitationem libero deleniti temporibus laudantium rerum optio saepe
+        id illo, adipisci, nostrum officia. Atque ut quisquam deserunt rerum
+        recusandae dolores delectus?
+      </h2>
+      <button class="home__contact">CONTACT ME</button>
     </section>
+
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+        laudantium, laboriosam sit commodi consequatur sequi eum cumque illum
+        quam hic temporibus earum ab obcaecati assumenda, ut, nobis ea deleniti
+        necessitatibus.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__tittle">Front-end</div>
+          <div class="major__discription">HTML, CSS, JavaScript</div>
+        </div>
+      </div>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__tittle">System Engineer</div>
+          <div class="major__discription">EES(RMS, FDC)System</div>
+        </div>
+      </div>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__tittle">Semiconduct</div>
+          <div class="major__discription">Equiment Engineer</div>
+        </div>
+      </div>
+      <div class="about__jobs">
+        <div class="job">
+          <img src="imgs/jobs/hynix.png" alt="" class="job__logo" />
+          <p class="job__name">SK hynix EES System Operation and Devalop</p>
+          <p class="job__period">2019.09 ~ 2021.04</p>
+        </div>
+        <div class="job">
+          <img src="imgs/jobs/nepes.png" alt="" class="job__logo" />
+          <p class="job__name">nepes EES System Operation and Devalop</p>
+          <p class="job__period">2021.04 ~ ing</p>
+        </div>
+      </div>
+    </section>
     <!-- Skills -->
     <section id="skills"></section>
     <!-- Work -->
@@ -46,5 +113,5 @@
     <section id="testimonials"></section>
     <!-- Contact -->
     <section id="contact"></section>
-</body>
+  </body>
 </html>
